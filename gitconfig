@@ -25,7 +25,7 @@
   interactive = auto
   status = auto
 [core]
-  editor = vim -f
+  editor = /usr/bin/vim -f
   autocrlf = input
   excludesfile = ~/.gitignore_global
 [apply]

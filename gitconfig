@@ -1,0 +1,36 @@
+[user]
+  name = Dmitriy Kiriyenko
+  email = dmitriy.kiriyenko@anahoret.com
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+  di = diff
+  dc = diff --cached
+  amend = commit --amend
+  aa = add --all
+  head = !git l -1
+  h = !git head
+  r = !git --no-pager l -20
+  ra = !git r --all
+  l = log --graph --abbrev-commit --date=relative
+  la = !git l --all
+  fa = fetch --all -p
+  x = !gitx
+[color]
+  ui = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[core]
+  editor = vim -f
+  autocrlf = input
+  excludesfile = ~/.gitignore_global
+[apply]
+  whitespace = nowarn
+[format]
+  pretty = format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+[push]
+  default = current
